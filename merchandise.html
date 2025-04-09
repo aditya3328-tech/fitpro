@@ -1,26 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Merchandise</title>
-    <link rel="stylesheet" href="merchandise.css">
-    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" href="payment.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
+  </head>
+  <body>
     <div id="main">
-        <div id="nav">
-            <div id="nav-part1">
-                <img onclick="loadPage()" src="logo.jpg" alt="">
+      <div id="nav">
+        <div id="nav-part1">
+          <img onclick="loadPage()" src="logo.jpg" alt="" />
+        </div>
+        <div id="nav-part2">
+          <a href="services.html">Services</a>
+          <a href="facility.html">Facility</a>
+          <a href="merchandise.html">Merchandise</a>
+          <button onclick="loadNewPage()">join now</button>
+        </div>
+      </div>
+      <div class="services">
+        <div class="container">
+          <h2>Gym Merchandise</h2>
+          <p class="subtitle">Get your hands on our official Fitpro merchandise and level up your style.</p>
+          <div class="service-cards">
+            <div class="card">
+              <h3>FitPro T-Shirt</h3>
+              <p>Breathable, moisture-wicking t-shirts available in multiple sizes and colors.</p>
+              <button>Buy now</button>
             </div>
-            <div id="nav-part2">
-                <a href="services.html">Services</a>
-                <a href="facility.html">Facility</a>
-                <a href="merchandise.html">Merchandise</a>
-                <button onclick="loadNewPage()">join now</button>
+            <div class="card">
+              
+              <h3>Gym Shorts</h3>
+              <p>Lightweight and stretchable shorts designed for comfort and performance.</p>
+              <button>Buy now <i class="ri-arrow-right-up-line"></i></button>
             </div>
+            <div class="card">
+              
+              <h3>Water Bottle</h3>
+              <p>Durable stainless steel bottle to keep your drink cold through intense workouts.</p>
+              <button>Buy now <i class="ri-arrow-right-up-line"></i></button>
+            </div>
+            <div class="card">
+              
+              <h3>Gym Bag</h3>
+              <p>Spacious and stylish duffel bag to carry all your gym essentials with ease.</p>
+              <button>Buy now <i class="ri-arrow-right-up-line"></i></button>
+            </div>
+            <div class="card">
+              
+              <h3>Workout Gloves</h3>
+              <p>Protect your hands and improve grip with our anti-slip workout gloves.</p>
+              <button>Buy now <i class="ri-arrow-right-up-line"></i></button>
+            </div>
+            <div class="card">
+              <h3>FitPro Hoodie</h3>
+              <p>Stay warm and stylish with our premium hoodies, perfect for post-workout comfort.</p>
+              <button>Buy now <i class="ri-arrow-right-up-line"></i></button>
+            </div>
+          </div>
         </div>
     </div>
-</body>
-<script src="script.js"></script>
+    </div>
+  </body>
+  <script src="script.js"></script>
 </html>
